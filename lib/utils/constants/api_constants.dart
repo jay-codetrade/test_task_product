@@ -1,0 +1,26 @@
+//API End Urls
+const String apiLogin = "auth/login";
+const String apiRegister = "merchant/register";
+const String apiVerifyEmailOtp = "merchant/verify-email-otp";
+const String apiVerifyMobileOtp = "merchant/verify-phone-otp";
+const String apiSendEmailOtp = "merchant/send-email-otp";
+const String apiSendMobileOtp = "merchant/send-phone-otp";
+const String apiReGenerateToken = "auth/regenerate-token";
+const String apiCountry = "common/country";
+const String apiGetQrCode = "merchant/qr-code";
+const String apiBusinessCategory = "merchant/category";
+const String apiGetProfile = "merchant/profile";
+const String apiCountryDetails = "common/country/findRegionData";
+const String apiAboutBusiness = "merchant/business-details";
+const String apiBusinessType = "merchant/type";
+const String apiSetExplorePin = "merchant/explore-pin";
+const String apiCreateNewPassword = "merchant/change-password";
+const String apiPersonalDetails = "merchant/personal-details";
+const String apiCheckEmailUpdate = "merchant/check-email";
+const String apiCheckPhoneUpdate = "merchant/check-phone";
+const String apiSendEmailOtpUpdate = "merchant/send-email-otp-for-update";
+const String apiSendPhoneOtpUpdate = "merchant/send-phone-otp-for-update";
+const String apiVerifyEmailOtpUpdate = "merchant/verify-email-otp-for-update";
+const String apiVerifyPhoneOtpUpdate = "merchant/verify-phone-otp-for-update";
+const String apiChangeExplore = "merchant/change-explorepin";
+const String apiChangePassword = "merchant/edit-password";
